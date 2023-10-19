@@ -1,0 +1,28 @@
+// custom variables
+$primary: #2292A4;
+$secondary: #878483;
+$success: #35CE8D;
+$info: #9F18E7;
+$warning: #FFA69E;
+$danger: #B74F6F;
+$light: #F8F8F8;
+$dark: #1D1D1D;
+
+// import the functions & variables -> have to come AFTER re-defined variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+    "altprimary": #4CB1AF,
+    "altsuccess": #6DA698,
+    "altwarning": #ECA88D,
+    "altdanger": #B9533A,
+    "altinfo": #500BF5,
+    "altlight": #F7F5F1,
+    "altdark": #47526A,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-theme-colors );
+
+// import bootstrap -> HAS to be at the bottom
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
