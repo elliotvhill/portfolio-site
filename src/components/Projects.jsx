@@ -3,9 +3,39 @@ export default function Projects() {
         <div className='projects-main'>
             <div className='projects'>
                 <h2 className='fw-semibold'>Previous projects</h2>
-                <div className='project-list'>
+                <div className='mx-auto project-list'>
+                    <div className="card-group mt-5">
+                    <div className="card border-primary w-25">
+                      <img className="card-img-top" src="src/assets/Rove-Curious.png" alt="" />
+                      <div className="card-body">
+                        <h4 className="card-title">Rove Curious</h4>
+                        <p className="card-text">Random image generator using NASA's Mars Curiosity Rover Photos API.</p>
+                      </div>
+                    </div>
+                    <div className="card border-primary w-25">
+                      <img className="card-img-top" src="src/assets/Sad-Dads-Concert-Tracker.png" alt="" />
+                      <div className="card-body">
+                        <h4 className="card-title">Sad Dads</h4>
+                        <p className="card-text">Personal concert tracking app.</p>
+                      </div>
+                    </div>
+                    <div className="card border-primary w-25">
+                      <img className="card-img-top" src="#" alt="" />
+                      <div className="card-body">
+                        <h4 className="card-title">Sad Dads</h4>
+                        <p className="card-text">Personal concert tracking app.</p>
+                      </div>
+                    </div>
+                    <div className="card border-primary w-25">
+                      <img className="card-img-top" src="#" alt="" />
+                      <div className="card-body">
+                        <h4 className="card-title">Sad Dads</h4>
+                        <p className="card-text">Personal concert tracking app.</p>
+                      </div>
+                    </div>
+                    </div>
                     <div className='project project1'>
-                        <h3 className='project1 fw-medium'>
+                        <h3 className='project1 fw-medium mt-5'>
                             Rove Curious
                         </h3>
                             <h4><a href="https://github.com/elliotvhill/Rove_Curious_NASA_API" target="_blank" className="infolight">GitHub</a> | <a href="https://rove-curious.surge.sh/" target="_blank" className="infolight">Live site</a> - Javascript, HTML, CSS</h4>
