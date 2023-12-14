@@ -14,7 +14,7 @@ export default function Nav() {
             >
                 <span className='navbar-toggler-icon'></span>
             </button>
-            <div className='collapse navbar-collapse' id='navbarNav'>
+            <div className='collapse navbar-collapse fw-medium' id='navbarNav'>
                 <ul className='navbar-nav'>
                     <li className='nav-item'>
                         <Link to='/' className='nav-link'>
