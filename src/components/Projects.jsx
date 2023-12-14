@@ -9,7 +9,7 @@ export default function Projects() {
                             <img
                                 className='card-img-top'
                                 src='src/assets/Rove-Curious.png'
-                                alt=''
+                                alt='A screenshot of the home page for the Rove Curious web application.'
                             />
                             <div className='card-body'>
                                 <h4 className='card-title'>Rove Curious</h4>
@@ -25,10 +25,11 @@ export default function Projects() {
                             <img
                                 className='card-img-top'
                                 src='src/assets/Sad-Dads-Concert-Tracker.png'
-                                alt=''
+                                alt='A screenshot of the home page for the Sad Dads concert tracking web application.'
                             />
                             <div className='card-body'>
                                 <h4 className='card-title'>Sad Dads</h4>
+                                <h6 className='card-subtitle'>PERN stack</h6>
                                 <p className='card-text'>
                                     Personal concert tracking app.
                                 </p>
@@ -36,6 +37,16 @@ export default function Projects() {
                             </div>
                         </div>
                         <div className='card border-primary w-25'>
+                            <img className='card-img-top' src='src/assets/DALL-E-Dazzle-Home.png' alt='A screenshot of the home page for the DALL-E-Dazzle web application.' />
+                            <div className='card-body'>
+                                <h4 className='card-title'>DALL-E-Dazzle</h4>
+                                <p className='card-text'>
+                                    Full stack MERN app built with OpenAI's DALL-E API that generates images based on text prompts.
+                                </p>
+                                <a href="https://github.com/Adrienx/DALL-E-Dazzle" className="card-link" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                        {/* <div className='card border-primary w-25'>
                             <img className='card-img-top' src='#' alt='' />
                             <div className='card-body'>
                                 <h4 className='card-title'>Sad Dads</h4>
@@ -43,16 +54,7 @@ export default function Projects() {
                                     Personal concert tracking app.
                                 </p>
                             </div>
-                        </div>
-                        <div className='card border-primary w-25'>
-                            <img className='card-img-top' src='#' alt='' />
-                            <div className='card-body'>
-                                <h4 className='card-title'>Sad Dads</h4>
-                                <p className='card-text'>
-                                    Personal concert tracking app.
-                                </p>
-                            </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className='project project1'>
                         <h3 className='project1 fw-medium mt-5'>
