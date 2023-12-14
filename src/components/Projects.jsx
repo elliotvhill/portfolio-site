@@ -17,6 +17,8 @@ export default function Projects() {
                                     Random image generator using NASA's Mars
                                     Curiosity Rover Photos API.
                                 </p>
+                                <a href="https://github.com/elliotvhill/Rove_Curious_NASA_API" className="card-link" target="_blank">GitHub</a>
+                                <a href="https://rove-curious.surge.sh/" className="card-link" target="_blank">Live Site</a>
                             </div>
                         </div>
                         <div className='card border-primary w-25'>
@@ -30,6 +32,7 @@ export default function Projects() {
                                 <p className='card-text'>
                                     Personal concert tracking app.
                                 </p>
+                                <a href="https://github.com/elliotvhill/Sad-Dads-Concert-Tracker" className="card-link" target="_blank">GitHub</a>
                             </div>
                         </div>
                         <div className='card border-primary w-25'>
