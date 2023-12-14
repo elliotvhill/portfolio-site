@@ -13,9 +13,9 @@ export default function Projects() {
                             />
                             <div className='card-body'>
                                 <h4 className='card-title'>Rove Curious</h4>
+                                <h6 className="card-subtitle">Javascript, HTML, CSS</h6>
                                 <p className='card-text'>
-                                    Random image generator using NASA's Mars
-                                    Curiosity Rover Photos API.
+                                    Web app built with vanilla Javascript that uses RESTful Axios API calls to pull images from NASA's Mars Curiosity Rover Photos API.
                                 </p>
                                 <a href="https://github.com/elliotvhill/Rove_Curious_NASA_API" className="card-link" target="_blank">GitHub</a>
                                 <a href="https://rove-curious.surge.sh/" className="card-link" target="_blank">Live Site</a>
@@ -29,9 +29,9 @@ export default function Projects() {
                             />
                             <div className='card-body'>
                                 <h4 className='card-title'>Sad Dads</h4>
-                                <h6 className='card-subtitle'>PERN stack</h6>
+                                <h6 className='card-subtitle'>Node.js, Express.js, MongoDB, Mongoose</h6>
                                 <p className='card-text'>
-                                    Personal concert tracking app.
+                                    Full stack app built with a custom API implemented using MongoDB and Mongoose.The app allows users to track concerts they've attended, including artists, venues, and setlists.
                                 </p>
                                 <a href="https://github.com/elliotvhill/Sad-Dads-Concert-Tracker" className="card-link" target="_blank">GitHub</a>
                             </div>
@@ -40,21 +40,13 @@ export default function Projects() {
                             <img className='card-img-top' src='src/assets/DALL-E-Dazzle-Home.png' alt='A screenshot of the home page for the DALL-E-Dazzle web application.' />
                             <div className='card-body'>
                                 <h4 className='card-title'>DALL-E-Dazzle</h4>
+                                <h6 className='card-subtitle'>MongoDB, Express.js, React, Node.js</h6>
                                 <p className='card-text'>
                                     Full stack MERN app built with OpenAI's DALL-E API that generates images based on text prompts.
                                 </p>
                                 <a href="https://github.com/Adrienx/DALL-E-Dazzle" className="card-link" target="_blank">GitHub</a>
                             </div>
                         </div>
-                        {/* <div className='card border-primary w-25'>
-                            <img className='card-img-top' src='#' alt='' />
-                            <div className='card-body'>
-                                <h4 className='card-title'>Sad Dads</h4>
-                                <p className='card-text'>
-                                    Personal concert tracking app.
-                                </p>
-                            </div>
-                        </div> */}
                     </div>
                     <div className='project project1'>
                         <h3 className='project1 fw-medium mt-5'>
