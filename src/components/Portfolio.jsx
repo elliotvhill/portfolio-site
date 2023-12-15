@@ -13,7 +13,7 @@ export default function Portfolio() {
                             />
                             <div className='card-body'>
                                 <h4 className='card-title'>Rove Curious</h4>
-                                <h6 className="card-subtitle">Javascript, HTML, CSS</h6>
+                                <h6 className="card-subtitle text-muted">Javascript, HTML, CSS</h6>
                                 <p className='card-text'>
                                     Web app built with vanilla Javascript that uses RESTful Axios API calls to pull images from NASA's Mars Curiosity Rover Photos API.
                                 </p>
@@ -29,7 +29,7 @@ export default function Portfolio() {
                             />
                             <div className='card-body'>
                                 <h4 className='card-title'>Sad Dads</h4>
-                                <h6 className='card-subtitle'>Node.js, Express.js, MongoDB, Mongoose</h6>
+                                <h6 className='card-subtitle text-muted'>Node.js, Express.js, MongoDB, Mongoose</h6>
                                 <p className='card-text'>
                                     Full stack app built with a custom API implemented using MongoDB and Mongoose.The app allows users to track concerts they've attended, including artists, venues, and setlists.
                                 </p>
@@ -40,7 +40,7 @@ export default function Portfolio() {
                             <img className='card-img-top' src='src/assets/DALL-E-Dazzle-Home.png' alt='A screenshot of the home page for the DALL-E-Dazzle web application.' />
                             <div className='card-body'>
                                 <h4 className='card-title'>DALL-E-Dazzle</h4>
-                                <h6 className='card-subtitle'>MongoDB, Express.js, React, Node.js</h6>
+                                <h6 className='card-subtitle text-muted'>MongoDB, Express.js, React, Node.js</h6>
                                 <p className='card-text'>
                                     Full stack MERN app built with OpenAI's DALL-E API that generates images based on text prompts.
                                 </p>
