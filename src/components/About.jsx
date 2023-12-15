@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className='about'>
+        <div className='container'>
             <h2 className='about-head main-brand'>About</h2>
             <div className='container w-50'>
                 <p>
@@ -14,8 +14,6 @@ export default function About() {
                     projects through a lens of accessibility, equity, and
                     integrity.
                 </p>
-            </div>
-            <div className='container'>
                 <img
                     src='src/assets/LI-profile-pic-sq.jpeg'
                     alt='A headshot of Elliot wearing a blue suit and tie with greenery in the background.'
