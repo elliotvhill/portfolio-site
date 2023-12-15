@@ -1,9 +1,9 @@
-export default function Projects() {
+export default function Portfolio() {
     return (
-        <div className='projects-main'>
-            <div className='projects'>
-                <h2 className='fw-semibold'>Previous projects</h2>
-                <div className='mx-auto project-list'>
+        <div className='container'>
+            <div className='row'>
+                <h2 className='fw-semibold'>Portfolio</h2>
+                <div className='project-list'>
                     <div className='card-group mt-5'>
                         <div className='card border-primary w-25'>
                             <img
@@ -48,7 +48,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className='project project1'>
+                    {/* <div className='project project1'>
                         <h3 className='project1 fw-medium mt-5'>
                             Rove Curious
                         </h3>
@@ -153,10 +153,10 @@ export default function Projects() {
                             Images can be uploaded and saved to a gallery hosted
                             on Cloudinary using their RESTful upload image API.
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
-            <div className='projects-exp mt-5'>
+            {/* <div className='projects-exp mt-5'>
                 <h2 className='exp infolight fw-semibold'>Professional Experience</h2>
                 <h4 className='exp  font-infolight'>
                     <a
@@ -229,7 +229,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
