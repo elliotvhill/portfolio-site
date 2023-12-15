@@ -17,7 +17,7 @@ export default function About() {
             </div>
             <div className='container'>
                 <img
-                    src='src/assets/LI profile pic.jpeg'
+                    src='src/assets/LI-profile-pic-sq.jpeg'
                     alt='A headshot of Elliot wearing a blue suit and tie with greenery in the background.'
                     className="img-thumbnail rounded-circle w-25"
                 />
