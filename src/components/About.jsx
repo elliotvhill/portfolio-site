@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div className='container'>
             <h2 className='about-head main-brand'>About</h2>
-            <div className='container w-50'>
+            <div className='container w-50 d-flex flex-column'>
                 <p>
                     Elliot Hill is a full stack software developer relocating to
                     San Francisco, CA in January 2024 to pursue his engineering
