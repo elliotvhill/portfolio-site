@@ -8,7 +8,7 @@ export default function Portfolio() {
                         <div className='card'>
                             <img
                                 className='card-img-top'
-                                src='assets/Rove-Curious.png'
+                                src='/Rove-Curious.png'
                                 alt='A screenshot of the home page for the Rove Curious web application.'
                             />
                             <div className='card-body'>
@@ -42,7 +42,7 @@ export default function Portfolio() {
                         <div className='card'>
                             <img
                                 className='card-img-top'
-                                src='assets/Sad-Dads-Concert-Tracker.png'
+                                src='/Sad-Dads-Concert-Tracker.png'
                                 alt='A screenshot of the home page for the Sad Dads concert tracking web application.'
                             />
                             <div className='card-body'>
@@ -71,7 +71,7 @@ export default function Portfolio() {
                         <div className='card'>
                             <img
                                 className='card-img-top'
-                                src='assets/DALL-E-Dazzle-Home.png'
+                                src='/DALL-E-Dazzle-Home.png'
                                 alt='A screenshot of the home page for the DALL-E-Dazzle web application.'
                             />
                             <div className='card-body'>
