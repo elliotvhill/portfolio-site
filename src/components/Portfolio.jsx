@@ -8,7 +8,7 @@ export default function Portfolio() {
                         <div className='card'>
                             <img
                                 className='card-img-top'
-                                src='src/assets/Rove-Curious.png'
+                                src='assets/Rove-Curious.png'
                                 alt='A screenshot of the home page for the Rove Curious web application.'
                             />
                             <div className='card-body'>
@@ -42,7 +42,7 @@ export default function Portfolio() {
                         <div className='card'>
                             <img
                                 className='card-img-top'
-                                src='src/assets/Sad-Dads-Concert-Tracker.png'
+                                src='assets/Sad-Dads-Concert-Tracker.png'
                                 alt='A screenshot of the home page for the Sad Dads concert tracking web application.'
                             />
                             <div className='card-body'>
@@ -71,7 +71,7 @@ export default function Portfolio() {
                         <div className='card'>
                             <img
                                 className='card-img-top'
-                                src='src/assets/DALL-E-Dazzle-Home.png'
+                                src='assets/DALL-E-Dazzle-Home.png'
                                 alt='A screenshot of the home page for the DALL-E-Dazzle web application.'
                             />
                             <div className='card-body'>
@@ -98,80 +98,6 @@ export default function Portfolio() {
                     </div>
                 </div>
             </div>
-            {/* <div className='projects-exp mt-5'>
-                <h2 className='exp infolight fw-semibold'>Professional Experience</h2>
-                <h4 className='exp  font-infolight'>
-                    <a
-                        href='https://drive.google.com/file/d/11pyFg53ZnBl6lnqDZ8tqCpadwMTsvMpP/view?usp=sharing'
-                        target='_blank'
-                    >
-                        Click here to download my resume.
-                    </a>
-                </h4>
-                <div className='exp-list'>
-                    <div className='exp exp-professional'>
-                        <div className='exp-indeed'>
-                            <div className='accordion' id='accordionExample'>
-                                <div className='accordion-item'>
-                                    <h2
-                                        className='accordion-header'
-                                        id='headingOne'
-                                    >
-                                        <button
-                                            className='accordion-button'
-                                            type='button'
-                                            data-bs-toggle='collapse'
-                                            data-bs-target='#collapseOne'
-                                            aria-expanded='true'
-                                            aria-controls='collapseOne'
-                                        >
-                                            Indeed.com
-                                        </button>
-                                    </h2>
-                                    <div
-                                        id='collapseOne'
-                                        className='accordion-collapse collapse show'
-                                        aria-labelledby='headingOne'
-                                        data-bs-parent='#accordionExample'
-                                    >
-                                        <div className='accordion-body'>
-                                            <ul className='list-unstyled'>
-                                                <li className='exp fw-semibold'>
-                                                    Enterprise Client Success
-                                                    Representative
-                                                </li>
-                                                <li className='exp-date fw-medium'>
-                                                    January 2019 - April 2023
-                                                </li>
-                                                <li>
-                                                    Drove revenue retention and
-                                                    expansion for Sales
-                                                    organization by managing a
-                                                    portfolio of over 90
-                                                    enterprise clients,
-                                                    resulting in consistent
-                                                    quarterly revenue generation
-                                                    of over $1.8 million.
-                                                </li>
-                                                <li>
-                                                    Achieved client objectives
-                                                    and showcased return on
-                                                    investment (ROI) via monthly
-                                                    executive business reviews,
-                                                    leading to an 88% client
-                                                    retention rate and enhanced
-                                                    product adoption.
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
         </div>
     )
 }
