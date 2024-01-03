@@ -20,7 +20,7 @@ export default function About() {
                 <img
                     src='/LI-profile-pic-sq.jpeg'
                     alt='A headshot of Elliot wearing a blue suit and tie with greenery in the background.'
-                    className='img-thumbnail rounded-circle w-25 mx-auto'
+                    className='img-thumbnail ratio ratio-1x1 w-25 h-25 rounded-circle mx-auto'
                 />
             </div>
         </div>
