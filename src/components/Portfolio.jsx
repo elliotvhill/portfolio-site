@@ -4,7 +4,7 @@ export default function Portfolio() {
                 <h2 className='fw-semibold'>Portfolio</h2>
                 <div className='row'>
                     <div className='col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0'>
-                        <div className='card'>
+                        <div className='card shadow-sm'>
                             <div className='card-body'>
                                 <img
                                     className='card-img-top mb-2 object-fit-cover'
@@ -40,7 +40,7 @@ export default function Portfolio() {
                         </div>
                     </div>
                     <div className='col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0'>
-                        <div className='card'>
+                        <div className='card shadow-sm'>
                             <div className='card-body'>
                                 <img
                                     className='card-img-top mb-2 object-fit-cover '
@@ -71,7 +71,7 @@ export default function Portfolio() {
                         </div>
                     </div>
                     <div className='col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0'>
-                        <div className='card'>
+                        <div className='card shadow-sm'>
                             <div className='card-body'>
                                 <img
                                     className='card-img-top mb-2 object-fit-cover '

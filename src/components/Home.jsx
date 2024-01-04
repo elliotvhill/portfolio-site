@@ -5,7 +5,7 @@ export default function Home() {
                 <img
                     src='/home-banner.jpg'
                     alt="A picture of a laptop, a phone, a notebook, and a mug on a desk. A small potted cactus is in the background. The words 'community', 'accessibility', and 'equity' are superimposed."
-                    className='container home-img w-75 d-flex'
+                    className='container w-75 d-flex'
                 />
             </div>
         </>
