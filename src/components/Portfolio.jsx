@@ -5,12 +5,14 @@ export default function Portfolio() {
                 <div className='row'>
                     <div className='col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0'>
                         <div className='card shadow-sm'>
-                            <div className='card-body'>
                                 <img
-                                    className='card-img-top mb-2 object-fit-cover'
+                                    className='card-img-top object-fit-fill object-fit-lg-contain p-2'
+                                    width={100}
+                                    height={225}
                                     src='/Rove-Curious.png'
                                     alt='A screenshot of the home page for the Rove Curious web application.'
                                 />
+                            <div className='card-body'>
                                 <h5 className='card-title'>Rove Curious</h5>
                                 <p className='card-subtitle text-muted mb-2'>
                                     Javascript, HTML, CSS
@@ -41,12 +43,14 @@ export default function Portfolio() {
                     </div>
                     <div className='col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0'>
                         <div className='card shadow-sm'>
-                            <div className='card-body'>
                                 <img
-                                    className='card-img-top mb-2 object-fit-cover '
+                                    className='card-img-top mb-2 object-fit-fill object-fit-lg-contain p-2'
+                                    width={100}
+                                    height={225}
                                     src='/Sad-Dads-Concert-Tracker.png'
                                     alt='A screenshot of the home page for the Sad Dads concert tracking web application.'
                                 />
+                            <div className='card-body'>
                                 <h5 className='card-title'>Sad Dads</h5>
                                 <p className='card-subtitle text-muted mb-2'>
                                     Node.js, Express.js, MongoDB, Mongoose
@@ -72,12 +76,14 @@ export default function Portfolio() {
                     </div>
                     <div className='col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0'>
                         <div className='card shadow-sm'>
-                            <div className='card-body'>
                                 <img
-                                    className='card-img-top mb-2 object-fit-cover '
+                                    className='card-img-top mb-2 object-fit-fill object-fit-lg-contain p-2'
+                                    width={100}
+                                    height={225}
                                     src='/DALL-E-Dazzle-Home.png'
                                     alt='A screenshot of the home page for the DALL-E-Dazzle web application.'
                                 />
+                            <div className='card-body'>
                                 <h5 className='card-title'>DALL-E-Dazzle</h5>
                                 <p className='card-subtitle text-muted mb-2'>
                                     MongoDB, Express.js, React, Node.js
