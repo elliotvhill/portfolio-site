@@ -1,16 +1,16 @@
-import { useState } from "react"
-import Header from "./components/Header"
-import Nav from "./components/Nav"
-import Main from "./components/Main"
-import Footer from "./components/Footer"
-import "./App.css"
+import { useState } from 'react'
+import Header from './components/Header'
+import Nav from './components/Nav'
+import Main from './components/Main'
+import Footer from './components/Footer'
+import './App.css'
 
 function App() {
     const currentYear = new Date().getFullYear()
     const footerDate = () => {
-        let copyright = document.querySelector("#copy-year")
+        let copyright = document.querySelector('#copy-year')
         copyright.innerHTML = `<p class="small">&copy; ${currentYear} Elliot Hill</p>`
-      }
+    }
     return (
         <>
             <div className='app'>

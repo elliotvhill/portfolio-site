@@ -10,10 +10,10 @@ export default function Main() {
         <div className='main'>
             <div className='routes-container'>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/portfolio" element={<Portfolio />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path='/' element={<Home />} />
+                    <Route path='/about' element={<About />} />
+                    <Route path='/portfolio' element={<Portfolio />} />
+                    <Route path='/contact' element={<Contact />} />
                 </Routes>
             </div>
             <div className='main-landing'>
