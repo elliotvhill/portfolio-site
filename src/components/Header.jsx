@@ -4,7 +4,7 @@ export default function Header() {
             <h1 className='text-primary'>
                 Elliot Hill <span className='text-dark h3'>(he/him)</span>
             </h1>
-            <h1 className="text-dark h6">software developer</h1>
+            <h1 className="text-dark fw-light h6">software developer</h1>
         </div>
     )
 }
