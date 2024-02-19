@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 export default function Nav() {
-    // content
     return (
         <div className='nav navbar navbar-expand-lg'>
             <button

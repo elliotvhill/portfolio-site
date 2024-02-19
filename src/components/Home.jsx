@@ -1,10 +1,10 @@
 export default function Home() {
     return (
         <>
-            <div className='container'>
+            <div className='object-fit-contain'>
                 <img
-                    src='/home-banner.jpg'
-                    alt="A picture of a laptop, a phone, a notebook, and a mug on a desk. A small potted cactus is in the background. The words 'community', 'accessibility', and 'equity' are superimposed."
+                    src='/desktop.jpg'
+                    alt="A picture of a laptop, a phone, a speaker, and a lamp on a desk. A plant in the foreground and the lamp in the background are out of focus."
                     className='container w-75 d-flex'
                 />
             </div>
